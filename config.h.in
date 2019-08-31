@@ -1,0 +1,16 @@
+#ifndef _CONFIG_H
+#define _CONFIG_H
+
+#define VERSION_LIBINTERFACE @LIBINTERFACE_VERSION@
+
+unsigned int getLibInterfaceVersion()
+{
+    return @LIBINTERFACE_VERSION@;
+}
+
+char const * getRootPath()
+{
+    return "@TEST_JSON_FILE_PATH@";
+}
+
+#endif // _CONFIG_H

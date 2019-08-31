@@ -1,0 +1,82 @@
+{
+    "entities": [{
+        "entity_id": 3,
+        "name": "EntityA"
+    }, {
+        "entity_id": 5,
+        "name": "EntityB"
+    }, {
+        "entity_id": 7,
+        "name": "EntityC",
+        "description": "More details about entity C"
+    },{
+        "entity_id": 10,
+        "name": "EntityD",
+        "description": "More details about entity D"
+    },{
+        "entity_id": 17,
+        "name": "EntityE",
+        "description": "No Desc"
+    },{
+        "entity_id": 27,
+        "name": "EntityF",
+        "description": "More details about entity F"
+    },{
+        "entity_id": 37,
+        "name": "EntityG",
+        "description": "More details about entity G"
+    },{
+        "entity_id": 47,
+        "name": "EntityH",
+        "description": "More details about entity H"
+    },{
+        "entity_id": 57,
+        "name": "EntityI",
+        "description": "More details about entity C"
+    },{
+        "entity_id": 107,
+        "name": "EntityJ",
+        "description": "More details about entity C"
+    }, {
+        "entity_id": 11,
+        "name": "EntityK",
+        "Data": "Some Data here"
+    }],
+    "links": [{
+        "from": 3,
+        "to": 5
+    }, {
+        "from": 3,
+        "to": 7
+    }, {
+        "from": 5,
+        "to": 7
+    }, {
+        "from": 107,
+        "to": 7
+    }, {
+        "from": 37,
+        "to": 7
+    }, {
+        "from": 5,
+        "to": 27
+    }, {
+        "from": 27,
+        "to": 7
+    }, {
+        "from": 27,
+        "to": 47
+    }, {
+        "from": 5,
+        "to": 107
+    }, {
+        "from": 107,
+        "to": 5
+    }, {
+        "from": 11,
+        "to": 5
+    },{
+        "from": 7,
+        "to": 11
+    }]
+}

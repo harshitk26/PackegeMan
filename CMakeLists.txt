@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.2)
-project(DEP C CXX)
+project(PackageMan C CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -O3")
@@ -22,8 +22,8 @@ include_directories( ${CMAKE_BINARY_DIR}/generated/ ) # Make sure it can be incl
 
 set(JSON_BuildTests OFF CACHE INTERNAL "")
 
-add_subdirectory(third_party/nlohmann_json)
-add_subdirectory(third_party/googletest)
+add_subdirectory(3rd-party/nlohmann_json)
+add_subdirectory(3rd-party/googletest)
 
 
 add_subdirectory(src)
